@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "normal";
+    src: url("web/fonts/font_medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "light";
+    src: url("web/fonts/font_regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "extra-light";
+    src: url("web/fonts/font_semibold.woff") format("woff");
+}
+
+* {
+    font-family: "normal";
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    font-family: extra-light;
+    margin-left: 32px; 
+    text-align: left;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+    font-family: extra-light;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 36px;
+    font-family: extra-light;
+    text-align: center;
+}
+
+h4 {
+    color: black;
+    font-size: 48px;
+    font-family: extra-light;
+    text-align: center;
+    margin-top: 6px;
+}
+
+h5 {
+    color: black;
+    font-size: 40px;
+    font-family: extra-light;
+    text-align: center;
+    margin-top: 0px;
+    margin-top: 30px;
+}
+
+h6 {
+    color: black;
+    font-size: 40px;
+    font-family: extra-light;
+    text-align: center;
+    margin-top: -40px;
+}
+h7 {
+    color: white;
+    font-size: 40px;
+    font-family: extra-light;
+    text-align:right;
+}
+
+p2 {
+    color: black;
+    font-size: 40px;
+    font-family: extra-light;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.home-bar {
+    z-index: 3;
+    position: fixed;
+    height: 6%;
+    width: 96%;
+    background-color: black;
+    border-radius: 64px;
+    transform: translate(-50%,0%);
+    top: 1%; 
+    left: 50%; 
+
+}
+
+.menu-icon {
+    z-index: 3;
+    position: absolute;
+    height: 94%;
+    width: 12%;
+    right: 3%;
+    top: 52%;
+    transform: translate(0%,-50%);
+}
+
+.intro {
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    height: 5%;
+    width: 90%;
+    background-color:#fafafa;
+    border-radius: 34px;
+    transform: translate(-50%,0%);
+    top: 9%;
+    left: 50%; 
+    
+    
+}
+
+.info {
+    overflow: hidden;
+    position: absolute;
+    object-fit: contain;
+    background-color:#fafafa;
+    height: 12%;
+    width: 90%;
+    border-radius: 34px;
+    top: 15%;
+    right: 50%;
+    transform: translate(50%,0%);
+}
+
+.co-info {
+    position: absolute;
+    object-fit: contain;
+    background-color: darkslategray;
+    height: 30%;
+    width: 30%;
+    border-radius: 26px;
+    bottom: 0%;
+    right: 50%;
+    transform: translate(50%,0%);
+    color: white;
+    font-size: 48px;
+    font-family: extra-light;
+    text-align: center;
+}
+
+.titulos {
+    position: absolute;
+    object-fit: contain;
+    height: 3%;
+    width: 90%;
+    right: 50%;
+    transform: translate(50%,0%);
+    text-align: left;
+    color: white;
+    font-size: 52px;
+    font-family: extra-light;
+}
+
+
+.separador {
+    overflow: hidden;
+    position: absolute;
+    object-fit: contain;
+    background-color: rgb(75, 75, 75);
+    height: 18%;
+    width: 100%;
+    border-radius: 18px;
+    right: 50%;
+    transform: translate(50%,0%);
+    bottom: 10%;
+}
+
+.red {
+    overflow: hidden;
+    position: absolute;
+    object-fit: contain;
+    background-color: rgb(75, 75, 75);
+    height: 8%;
+    width: 90%;
+    border-radius: 18px;
+    right: 50%;
+    transform: translate(50%,0%);
+}
+
+.red-icon {
+    overflow: hidden;
+    position: absolute;
+    object-fit: contain;
+    background-color: rgb(75, 75, 75);
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    top: 50%;
+    right: 90%;
+    transform: translate(50%,-50%);
+}
+
+.red-text {
+    position: absolute;
+    object-fit: contain;
+    height: 90%;
+    width: 76%;
+    top: 0%;
+    right: 0%;
+    color: white;
+    font-size: 58px;
+    font-family: extra-light;
+    margin-top: 25px; 
+    margin-left: 32px; 
+    text-align: left;
+}
+
+.end {
+    z-index: 1;
+    position: absolute;
+    right: 0%;
+    height: 4%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
